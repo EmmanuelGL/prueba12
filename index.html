@@ -1,0 +1,232 @@
+<!-- comentario -->
+<!-- ctrl + ]}`  -->
+<!-- esta etiqueta sirve para definir el tipo de cocumento -->
+<!DOCTYPE html>
+<!-- html es mi etiqueta principal que contendra todo lo de mi pagina  -->
+<!-- lang es un atributo el cual me dira el idioma de página -->
+<html lang="es-MX">
+<!-- head -contiene datos que se le pasaran al navegador -->
+
+<head>
+    <!-- caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- conpatibilidad -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- una escala inicial que ocupara el ancho total de mi pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- título de mi página  -->
+    <title>Mi primera página</title>
+    <!-- este es el icono de de mi página -->
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+
+    <style>
+        /* este es un comentario */
+        /* 
+        selector{
+                Propiedades:valor;
+                propiedades:valor;
+                proiedades:valor;
+            } 
+        */
+        /* selector x Nombre de etiqueta */
+        body{
+            /* cambia el color de fondo */
+            background-color: teal;
+            /* cambia el color de la letra */
+            color:white;
+        }
+        th{
+            border:solid black 5px;
+        }
+        td{
+            border: black solid 5px;
+        }
+        h1{
+            color: yellow;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<!-- body contendra lo qel codigo que se mostrara en el navegador  -->
+
+<body>
+    <!-- headers -titulos-->
+    <h1>Lorem, ipsum dolor.</h1>
+    <h2>Lorem, ipsum dolor.</h2>
+    <h3>Lorem, ipsum dolor.</h3>
+    <h4>Lorem, ipsum dolor.</h4>
+    <h5>Lorem, ipsum dolor.</h5>
+    <h6>Lorem, ipsum dolor.</h6>
+
+    <!-- p = parrafos      br = salto de línea -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Odio ratione dolor ut, voluptatem minus magni cum maxime ipsa. <br>
+        Modi, eligendi. <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit <br>
+        commodi dicta magni neque ut. Magnam, eos, quam ad nulla at <br>
+        officia dolorem qui voluptatibus quis fugit, error earum <br>
+        consectetur repellat totam. Nesciunt cum corrupti minus sint <br>
+        laborum aperiam amet iste cupiditate! Molestias laborum amet <br>
+        expedita soluta consequatur, ducimus tenetur blanditiis!
+    </p>
+    <h1>titulo principal</h1>
+
+    <!-- hr sirve para separar contenido  -->
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Alias eius quis vero corrupti ea laboriosam voluptas necessitatibus
+        sequi nihil molestias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusamus harum dicta ratione sint, ad placeat
+        sit praesentium cum natus temporibus commodi sequi id fugiat tempore magni. Praesentium perspiciatis similique
+        explicabo deleniti, modi vero quisquam a dolores ipsa eius. Amet quisquam velit qui nulla sapiente adipisci
+        doloremque, consequuntur maxime repudiandae.
+    </p>
+
+    <!-- pre = texto preformateado -->
+    <pre>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Quod odit blanditiis saepe illo. Praesentium doloribus blanditiis 
+magnam, rerum aspernatur laborum debitis, natus quaerat id nobis 
+sapiente? Tenetur assumenda aliquid repellat fugiat minima at 
+inventore autem molestiae? Dolore eligendi aperiam ex dignissimos 
+ullam, quia rem! Facere nostrum culpa rem cum possimus.
+    </pre>
+
+    <!-- b = texto en color negrita     strong = texto con mayor importancia   -->
+    <b>hola mundo</b> <strong>hola mundo</strong>
+
+    <!-- 
+        i = italic cursiva (termino tecnico,frases en otro idioma, un pensamiento)
+        em= enfacis 
+    -->    
+    <i>jajajajaja</i>  <em>jjajajaajajaja</em>
+
+    <!-- smmall- texto mas pequeño -->
+    <p>Lorem ipsum dolor,<small>sit amet consectetur adipisicing elit.</small> Minima cum fugiat quaerat est et sint?</p>
+
+    <!-- sub = subÍndice sup= superíndice -->
+    <p title="frase de emmas">Lorem ipsum dolor sit <sup>amet</sup>  consectetur adipisicing <sub>elit.</sub>  Cum officiis iure praesentium impedit earum assumenda.</p>
+
+    <!-- etiqueta de direccion -->
+    <address>redes sociales, direccion fisica de la empresa, informacion de contacto url</address>
+
+    <!-- abbr-abreviaturas suele ir con el atributo title -->
+    <abbr title="Organización Mundial de la Salud">OMS</abbr>
+
+    <p>"hola mundo"</p>
+    <!-- quotes-comillas= citado de algo corto -->
+    <q>hola mundo</q>
+
+    <!-- square circle  y disc -->
+    <ul type="disc">
+        <li>jojojojo</li>
+        <li>jojojojo</li>
+        <li>jojojojo</li>
+        <li>jojojojo</li>
+        <li>jojojojo</li>
+    </ul> 
+ 
+    <!-- A a i I 1 -->
+    <ol type="I">
+        <li>jojojojojo</li>
+        <li>jojojojojo</li>
+        <li>jojojojojo</li>
+        <li>jojojojojo</li>
+        <li>jojojojojo</li>
+        <li>jojojojojo</li>
+    </ol>
+
+    <!-- etiqueta de imagen  -->
+    <img src="img/imagenjpg.jpg" alt="imagen jpg" width="200" height="200" title="imagen jpg">
+    <img src="img/png.png" alt="imagen png" width="200" height="200" title="imagen png">
+    <img src="img/svg.svg" alt="imagen svg" width="200" height="200" title="imagen svg">
+
+
+    <!-- picture me mostrara imagenes dependiendo el tamaño de pantalla -->
+    <picture>
+        <!-- 0px 500px -->
+        <source media="(max-width: 500px)" srcset="img/uno.jpg"  width="100%">
+        <!-- 501px 800px -->
+        <source media="(max-width:800px)" srcset="img/dos.jpg"  width="100%">
+        <!-- 801px 1000px -->
+        <source media="(max-width:1000px)" srcset="img/tres.jpg" width="100%">
+        <!-- 1001px a más -->
+        <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/15665/production/_107435678_perro1.jpg" alt="imagen mas ancha" width="100%">
+    </picture>
+   
+
+
+    <iframe src="https://htmlcolorcodes.com/es/" frameborder="50" width="100%" height="900px"></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.1898953135162!2d-99.09130116038044!3d19.508976773103804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbaf2924374d%3A0x31699f00d5f7ba92!2sPilares%20Centenario!5e0!3m2!1ses!2smx!4v1631642132333!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <!-- define una tabla -->
+    <table style="width: 100%;">
+        <caption>Alumnos</caption>
+        <!-- encabezados -->
+        <thead>
+            <!-- table row -->
+            <tr>
+                <!-- table headers  style es la forma de implementar estilo inline-->
+                <th style="border: black 5px solid;">Curso</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <!-- contenido  -->
+        <tbody>
+            <tr>
+                <!-- table data -->
+                <td rowspan="2">Modulo Cero</td>
+                <td>Emmanuel</td>
+                <td>Gómez</td>
+                <td>Luna</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>González</td>
+                <td>Juarez</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Modulo Uno</td>
+                <td>Maria</td>
+                <td>Perez</td>
+                <td>Sanchez</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Perez</td>
+                <td>Sanchez</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Perez</td>
+                <td>Sanchez</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+        <!-- pie de tabla -->
+        <tfoot>
+            <tr>
+                <!-- atributo colspan es para agrupar columnas -->
+                <td colspan="4">Total de edad</td>
+                <td>80</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    
+
+</body>
+
+</html>

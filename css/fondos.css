@@ -1,0 +1,9 @@
+div{
+    width: 430px;
+    height: 300px;
+    background-color: teal;
+    background-image: url('/img/vaca.png'),url('/img/gallo.png'),url('/img/granja.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px 100px,80px 80px,430px 300px;
+    background-position:40px center,center 170px, center;
+}

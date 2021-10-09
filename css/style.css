@@ -1,0 +1,107 @@
+/* 
+    selector{
+        propiedes:valor;
+        porpiedades:valor;
+    }
+
+
+
+    selectores
+    1-nombre de etiqueta
+    2-id
+    3-class
+    4-padres e hijos
+    5-descendencia
+    7-multiple selector
+    6-universal
+
+
+    pseudo-class
+    1-:hover
+*/
+
+
+/* nombre de etiqueta */
+/* body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    background-color: #1cd11cdc;
+    color: #df2299;
+}
+h2{
+    background-color: rgba(0, 0, 255, 0.233);
+    color: turquoise;
+}
+h3{
+    background-color: rgb(0, 255, 242);
+    color: rgb(64, 224, 77);
+}
+h4{
+    background-color: rgb(255, 8, 0);
+    color: turquoise;
+}
+h5{
+    background-color: rgb(255, 0, 234);
+    color: turquoise;
+}
+h6{
+    background-color: rgb(241, 40, 40);
+    color: turquoise;
+}
+
+/* selector por id=#*/
+#hola{
+    background-color: teal;
+    color: white;
+}
+#hola1{
+    background-color: tomato;
+    color: violet;
+}
+
+#prueba1{
+    background-color: yellow;
+    color: yellowgreen;
+}
+
+/* selector por clase=. */
+/* .hola{
+    background-color: blue;
+    color: white;
+} */
+
+/* selector padres e hijos > */
+/* div>div>header>h1{
+    background-color: violet;
+    color: yellow;
+} */
+/* section>h1{
+    background-color: blue;
+} */
+/* selecto de descendencia */
+/* section#primary h1{
+    color: red;
+} */
+
+header,section,div{
+    background-color: coral;
+}
+
+#pre,.pru,h4,h2,h3{
+    background-color: cornflowerblue;
+}
+
+
+h2:hover{
+    background-color: brown;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+}
+
+
+div{
+    background-color: tomato;
+    /* width: 200px;
+    height: 200px; */
+    /* margin: auto; */
+    /* margin: 20px 15px 80px 70px;
+    margin: 20px; */
+    /*       top right bottom left*/
+    /* margin: 15px 60px 50px; */
+    /* margin: 20px 60px; */
+    /* margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    margin-right: 40px; */
+    border: solid 3px;
+    /*border-width: 3px 6px;
+    border-color: red blanchedalmond; */
+    /* border: cornflowerblue solid 6px; */
+    /* border: 6px cornflowerblue dotted; */
+    /* border-top-color: cornflowerblue;
+    border-top-width: 2px;
+    border-top-style: double;
+    border-bottom-color: darkblue;
+    border-bottom-width: 4px;
+    border-bottom-style: dotted;
+    border-left-color: darkred;
+    border-left-width: 6px;
+    border-left-style: dashed;
+    border-right-color: deeppink;
+    border-right-width: 8px;
+    border-right-style: solid; */
+    padding: 15px 20px 30px;
+
+}
+
+p,header,h1,h2{
+    background-color: crimson;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* width: 100%; */
+    border-radius: 50%;
+}
+b,i,a{
+    background-color: darkblue;
+    color: white;
+    margin: 25px;
+    /* display: inline-block; */
+    /* display: block; */
+}
